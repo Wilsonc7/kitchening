@@ -141,4 +141,23 @@
     }
     
  }
+ @media (min-width:1180px) {
+   /*  HEADER */
+    .home__header__nav--menu ul li{
+        font-size: 1rem;
+        height: 50px;
+        padding: 15px 0;
+    }
+   /*  MAIN */
+   .home__main__section__article{
+    width: 32%;
+   }
+   .home__main__section--article:nth-child(even){
+    margin-right: 2%;
+   }
+   .home__main__section--article:nth-child(3n){
+    margin-right:0;
+}
+}
+ 
 
