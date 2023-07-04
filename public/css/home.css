@@ -160,6 +160,30 @@
    .home__main__section__article:nth-child(3n){
     margin-right: 0;
 }
+/* FOOTER */
+
+   
+  .home__footer__nav--menu ul li {
+    
+    padding: 8px 15px;
+    display: inline-block;
+    border-right: 1px solid white;
+  }
+   
+  
+  .home__footer__nav--menu {
+    background-color: var(--colorRojo);
+  
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+    padding-top:50px;
+    padding-bottom: 50px;
+    }
+    .home__footer__nav--menu ul li:last-child {
+        margin-bottom: 0;
+        border-right: none; 
+      }
+
+
 }
- 
 
