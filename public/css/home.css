@@ -152,11 +152,13 @@
    .home__main__section__article{
     width: 32%;
    }
-   .home__main__section--article:nth-child(even){
+   .home__main__section__article:nth-child(even){
     margin-right: 2%;
+    
+    
    }
-   .home__main__section--article:nth-child(3n){
-    margin-right:0;
+   .home__main__section__article:nth-child(3n){
+    margin-right: 0;
 }
 }
  
